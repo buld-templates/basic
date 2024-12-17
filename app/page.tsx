@@ -1,6 +1,8 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
-export default function Home() {
+export const metadata = {};
+
+const Page = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-background">
       <div className="text-center">
@@ -11,5 +13,7 @@ export default function Home() {
         </Button>
       </div>
     </div>
-  )
+  );
 }
+
+export default Page;
